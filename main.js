@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App'
 import store from './store'
 import api from './utils/common'
-import http from './utils/request'
+import http from './api'
 
 import FlexLayout from './components/base/FlexLayout.vue'
 
