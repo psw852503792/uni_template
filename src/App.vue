@@ -2,7 +2,7 @@
 	export default {
 		onLaunch: function() {
 			let userInfo = uni.getStorageSync('userInfo') || ''
-			if(userInfo.sid){
+			if(userInfo){
 				//更新登陆状态
 				this.$store.commit('login',userInfo)
 			}
