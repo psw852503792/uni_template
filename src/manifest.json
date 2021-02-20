@@ -78,13 +78,16 @@
     "h5" : {
         "devServer" : {
             "https" : false,
-			"port" : 80,
-			"disableHostCheck" : true
+            "port" : 80,
+            "disableHostCheck" : true
         },
         "optimization" : {
             "treeShaking" : {
                 "enable" : true
             }
+        },
+        "router" : {
+            "mode" : "history"
         }
     }
 }
